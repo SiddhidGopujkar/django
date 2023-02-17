@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/reactfrontend/node_modules
+/reactfrontend/.pnp
+/reactfrontend.pnp.js
+
+/reactfrontend/.firebase
+# testing
+/reactfrontend/coverage
+
+# production
+/reactfrontend/build
+
+# misc
+/reactfrontend/.DS_Store
+/reactfrontend/.env.local
+/reactfrontend/.env.development.local
+/reactfrontend/.env.test.local
+/reactfrontend/.env.production.local
+
+/reactfrontend/npm-debug.log*
+/reactfrontend/yarn-debug.log*
+/reactfrontend/yarn-error.log*
+/reactfrontend/package-lock.json
+/reactfrontend/firebase-debug.log
+
+/react
