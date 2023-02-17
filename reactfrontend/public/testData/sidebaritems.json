@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "label": "APPETIZER"
+    },
+    {
+      "id": 2,
+      "label": "DESERTS"
+    },
+    {
+      "id": 3,
+      "label": "COMBOS"
+    },
+    {
+      "id": 4,
+      "label": "SEAFOOD"
+    },
+    {
+      "id": 5,
+      "label": "VEGETARIAN"
+    },
+    {
+      "id": 6,
+      "label": "MEAT"
+    }
+  ]
+}

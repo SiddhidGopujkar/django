@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Reliable Interplanetary Food Delivery",
+      "description": "Celebrate with good food from around the world",
+      "desktop": {
+        "image": "linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/Rectangle 3038.png')",
+        "position": "center center"
+      },
+      "mobile": {
+        "image": "",
+        "position": ""
+      }
+    },
+    {
+      "id": 2,
+      "text": "Taste trips from home",
+      "description": "Sign up for free delivery, always",
+      "desktop": {
+        "image": "linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/Rectangle 3056.png')",
+        "position": "right top"
+      },
+      "mobile": {
+        "image": "",
+        "position": ""
+      }
+    },
+    {
+      "id": 3,
+      "text": "we only harm food tourism",
+      "description": "Norwegian Salmon, Plant-based Seafood, Truffles, Groceries and more!",
+      "desktop": {
+        "image": "linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/Rectangle 3038 nasta.png')",
+        "position": "right center"
+      },
+      "mobile": {
+        "image": "",
+        "position": ""
+      }
+    }
+  ]
+}

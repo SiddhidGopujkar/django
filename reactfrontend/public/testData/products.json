@@ -1,0 +1,64 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "name": "The Australian Outback",
+          "createdAt": "2022-11-28T05:19:50.132Z",
+          "updatedAt": "2022-11-28T05:27:39.298Z",
+          "publishedAt": "2022-11-28T05:19:59.372Z",
+          "path": "images/products/Rectangle 1.png"
+        }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "name": "The Snacks",
+          "createdAt": "2022-11-28T05:28:13.392Z",
+          "updatedAt": "2022-11-28T05:30:19.236Z",
+          "publishedAt": "2022-11-28T05:30:19.233Z",
+          "path": "images/products/Rectangle 2.png"
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "name": "The Ice Creams",
+          "createdAt": "2022-11-28T05:28:34.910Z",
+          "updatedAt": "2022-11-28T05:30:14.381Z",
+          "publishedAt": "2022-11-28T05:30:14.379Z",
+          "path": "images/products/Rectangle 3.png"
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "name": "Quick & Easy Meals",
+          "createdAt": "2022-11-28T05:28:57.867Z",
+          "updatedAt": "2022-11-28T05:30:05.715Z",
+          "publishedAt": "2022-11-28T05:30:05.713Z",
+          "path": "images/products/Rectangle 4.png"
+        }
+      },
+      {
+        "id": 5,
+        "attributes": {
+          "name": "Raw Meat",
+          "createdAt": "2022-11-28T05:29:18.476Z",
+          "updatedAt": "2022-11-28T05:29:23.086Z",
+          "publishedAt": "2022-11-28T05:29:23.084Z",
+          "path": "images/products/Rectangle 5.png"
+        }
+      },
+      {
+        "id": 6,
+        "attributes": {
+          "name": "New",
+          "createdAt": "2022-11-28T11:46:48.559Z",
+          "updatedAt": "2022-11-28T11:47:07.154Z",
+          "publishedAt": "2022-11-28T11:47:07.151Z",
+          "path": "images/products/Rectangle 1.png"
+        }
+      }
+    ]
+  }

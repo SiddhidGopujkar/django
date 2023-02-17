@@ -1,30 +1,39 @@
-import './App.css';
-import { useState, useEffect } from "react";
-import axios from "axios";
+import logo from './logo.svg';
+import './styles/App.css';
+import './styles/Icons.css';
+import { Sidebar } from './components/partials/Theme';
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import PersonalizedJourney from './components/pages/PersonalizedJourney';
+import ChatBot from './components/pages/ChatBot';
+import NotFound from './components/pages/NotFound';
+import Recipes from './components/pages/Recipes';
+
 function App() {
-  const [students, setStudents] = useState([])
-  useEffect(()=>{
-    async function getAllStudent(){
-      try {
-        const students = await axios.get("http://127.0.0.1:8000/api/student/")
-        console.log(students.data)
-        setStudents(students.data)
-      } catch (error) {
-        console.log(error)
-      }
-    }
-    getAllStudent()
-  }, [])
   return (
     <div className="App">
-     <h1>Connect React JS to Django</h1>
-     {
-       students.map((student, i)=>{
-         return (
-           <h2 key={i}>{student.stuname} {student.email}</h2>
-         )
-       })
-     }
+
+      <Router>
+
+        <Sidebar />
+        
+        <Routes>
+          {/* Guest routes */}
+          <Route path="/" exact={true} element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/personalizedjourney" element={<PersonalizedJourney />} />
+          <Route path="/chatbot" element={<ChatBot />} />
+          <Route path="/recipes" element={<Recipes />} />
+          <Route path='*' element={<NotFound />} />
+          {/* Guest routes, Not logged in */}
+          
+          {/* Private routes */}
+        </Routes>
+      </Router>
+ 
     </div>
   );
 }
